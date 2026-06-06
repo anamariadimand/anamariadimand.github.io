@@ -91,3 +91,12 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+/* Brand colors for social / profile icons */
+.fa-google-scholar { color: #4285F4; }
+.fa-github         { color: #181717; }
+.fa-twitter        { color: #1DA1F2; }
+.fa-linkedin       { color: #0A66C2; }
+.fa-orcid          { color: #A6CE39; }
+.fa-bluesky        { color: #0285FF; }
+.fa-weixin         { color: #07C160; }
