@@ -5,6 +5,7 @@ selected:       false
 pub:            "Production Planning & Control"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Online First</span>'
 pub_date:       "2025"
+cover:          /assets/images/covers/gen/2025-03.svg
 links:
   Paper: https://www.tandfonline.com/doi/full/10.1080/09537287.2025.2475286
 authors:

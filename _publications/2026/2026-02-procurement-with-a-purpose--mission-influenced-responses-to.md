@@ -5,6 +5,7 @@ selected:       true
 pub:            "American Review of Public Administration"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Online First</span>'
 pub_date:       "2026"
+cover:          /assets/images/covers/gen/2026-02.svg
 links:
   Paper: https://journals.sagepub.com/doi/epdf/10.1177/02750740261444332
 authors:

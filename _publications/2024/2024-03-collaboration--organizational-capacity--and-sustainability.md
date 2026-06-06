@@ -4,6 +4,7 @@ date:           2024-10-01 00:01:00 +0000
 selected:       false
 pub:            "Public Administration Quarterly, 48(4), 239-262"
 pub_date:       "2024"
+cover:          /assets/images/covers/gen/2024-03.svg
 links:
   Paper: https://journals.sagepub.com/eprint/FNGNMFRXIR9XE5FZUEE7/full
 authors:

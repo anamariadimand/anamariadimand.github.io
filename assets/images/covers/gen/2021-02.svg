@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <g fill="#ffffff" opacity="0.07">
+    <circle cx="520" cy="330" r="150"/>
+    <circle cx="520" cy="330" r="100"/>
+    <circle cx="520" cy="330" r="55"/>
+  </g>
+  <text x="40" y="150" fill="#ffffff" font-size="84" font-weight="700" letter-spacing="1">JEM</text>
+  <text x="40" y="250" fill="#ffffff" fill-opacity="0.92" font-size="22" font-weight="400"><tspan x="40" dy="0">Journal of Emergency</tspan><tspan x="40" dy="26">Management</tspan></text>
+  <rect x="40" y="300" width="60" height="4" rx="2" fill="#ffffff" fill-opacity="0.8"/>
+  <text x="40" y="345" fill="#ffffff" fill-opacity="0.85" font-size="20" font-weight="600" letter-spacing="2">2021</text>
+</svg>
