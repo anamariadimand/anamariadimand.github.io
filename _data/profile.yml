@@ -5,7 +5,10 @@ navbar_name: "Ana-Maria Dimand"
 positions:
 - name: Assistant Professor
 - name: Askew School of Public Administration and Policy, Florida State University
-- name: Global Research Fellow, Sustainable Procurement Research Initiative, American University
+- name: >-
+    Global Research Fellow,
+    <a href="https://kogod.american.edu/sustainable-procurement-research-initiative-people-and-partners" target="_blank">Sustainable Procurement Research Initiative</a>,
+    American University
 
 
 email: "adimand@fsu.edu"
