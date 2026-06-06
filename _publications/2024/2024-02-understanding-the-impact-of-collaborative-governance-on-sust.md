@@ -1,0 +1,10 @@
+---
+title:          "Understanding the Impact of Collaborative Governance on Sustainability: Evidence from Buying Green in Local Governments in Florida, USA"
+date:           2024-11-01 00:01:00 +0000
+selected:       true
+pub:            "International Journal of Public Administration"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Online First</span>'
+pub_date:       "2024"
+authors:
+  - Ana-Maria Dimand
+---
