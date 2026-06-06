@@ -5,6 +5,7 @@ selected:       true
 pub:            "Routledge"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Book, in production</span>'
 pub_date:       "2026"
+cover:          /assets/images/covers/essential-guide-public-procurement.jpg
 authors:
   - Ana-Maria Dimand
   - B. Brunjes
