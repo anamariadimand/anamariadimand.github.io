@@ -51,13 +51,19 @@ education:
 
 experience:
 - name: Florida State University
-  position: Assistant Professor, Askew School of Public Administration and Policy
+  position: >-
+    Assistant Professor <br/>
+    Askew School of Public Administration and Policy
   date: 2024 - present
 - name: American University
-  position: Global Research Fellow, Sustainable Procurement Research Initiative
+  position: >-
+    Global Research Fellow <br/>
+    Sustainable Procurement Research Initiative
   date: 2022 - present
 - name: Boise State University
-  position: Assistant Professor, School of Public Service
+  position: >-
+    Assistant Professor <br/>
+    School of Public Service
   date: 2020 - 2024
 
 awards:

@@ -12,9 +12,11 @@
                                 <li class="media mb-1">
                                     {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">{% endif %}
                                     <div class="media-body">
-                                        <div>{{ item.name }}</div>
+                                        <div class="d-flex">
+                                            <div>{{ item.name }}</div>
+                                            <div class="ml-auto pl-2 no-break small"><em>{{ item.date }}</em></div>
+                                        </div>
                                         <div class="small">{{ item.position }}</div>
-                                        <div class="small"><em>{{ item.date }}</em></div>
                                     </div>
                                 </li>
                                 {% endfor %}
@@ -32,9 +34,11 @@
                                 <li class="media mb-1">
                                     {% if item.logo %}<img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">{% endif %}
                                     <div class="media-body">
-                                        <div>{{ item.name }}</div>
+                                        <div class="d-flex">
+                                            <div>{{ item.name }}</div>
+                                            <div class="ml-auto pl-2 no-break small"><em>{{ item.date }}</em></div>
+                                        </div>
                                         <div class="small">{{ item.position }}</div>
-                                        <div class="small"><em>{{ item.date }}</em></div>
                                     </div>
                                 </li>
                                 {% endfor %}
