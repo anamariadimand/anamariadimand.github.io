@@ -5,6 +5,8 @@ selected:       false
 pub:            "Review of Public Personnel Administration"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Online First</span>'
 pub_date:       "2024"
+links:
+  Paper: https://journals.sagepub.com/doi/10.1177/0734371X241298701
 authors:
   - E. Rodriguez-Plesa
   - M. G. Alkadry

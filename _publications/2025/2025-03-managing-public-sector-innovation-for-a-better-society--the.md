@@ -5,6 +5,8 @@ selected:       false
 pub:            "Production Planning & Control"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Online First</span>'
 pub_date:       "2025"
+links:
+  Paper: https://www.tandfonline.com/doi/full/10.1080/09537287.2025.2475286
 authors:
   - S. A. Patrucco
   - Ana-Maria Dimand

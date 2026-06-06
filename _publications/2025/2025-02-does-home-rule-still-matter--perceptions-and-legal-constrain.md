@@ -5,6 +5,8 @@ selected:       false
 pub:            "Publius: The Journal of Federalism"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Online First</span>'
 pub_date:       "2025"
+links:
+  Paper: https://academic.oup.com/publius/advance-article-abstract/doi/10.1093/publius/pjaf029/8180502
 authors:
   - Ana-Maria Dimand
   - L. Fowler

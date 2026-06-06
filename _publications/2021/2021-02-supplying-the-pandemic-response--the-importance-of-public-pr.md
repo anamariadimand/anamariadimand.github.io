@@ -4,6 +4,8 @@ date:           2021-11-01 00:01:00 +0000
 selected:       false
 pub:            "Journal of Emergency Management, 18(7), 189-208"
 pub_date:       "2021"
+links:
+  Paper: https://www.wmpllc.org/ojs/index.php/jem/article/view/2930
 authors:
   - S. Abutabenjeh
   - L. Anguelov

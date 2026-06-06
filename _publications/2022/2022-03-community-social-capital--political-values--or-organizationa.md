@@ -4,6 +4,8 @@ date:           2022-10-01 00:01:00 +0000
 selected:       false
 pub:            "Journal of Cleaner Production, 338, 130556"
 pub_date:       "2022"
+links:
+  Paper: https://doi.org/10.1016/j.jclepro.2022.130556
 authors:
   - E. Rodriguez-Plesa
   - Ana-Maria Dimand
