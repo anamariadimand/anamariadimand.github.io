@@ -4,56 +4,141 @@ title : Public-Facing Scholarship
 navbar_title: Public-Facing Scholarship
 ---
 
+{% assign report_pill = "background-color:#e6f4f1;color:#0f766e;" %}
+{% assign essay_pill = "background-color:#eef2ff;color:#4338ca;" %}
+
 <div class="row">
     <div class="col-12 col-lg-10">
 
         <h2 class="pt-4">Public-Facing Scholarship</h2>
-        <p class="text-muted">
+        <p>
             Selected work written for practitioners, policymakers, and the broader public, alongside applied
             research reports prepared for partner organizations.
+        </p>
+        <p class="text-muted small">
+            Titles link to the full piece. Tags indicate the outlet or partner organization.
         </p>
 
         <!-- Research Reports -->
         <div class="row mt-3">
-            <div class="col">
-                <div class="card border-0 shadow-sm bg-white">
-                    <div class="card-body p-4">
-                        <h5 class="mb-3">Research Reports</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong> (contributor). <a href="https://s3.us-east-1.amazonaws.com/nigp-prod-media/assets/resources/research-papers/2026-State-of-the-Public-Procurement-Profession.pdf" target="_blank">The State of the Public Procurement Profession: Trends, Insights, and Outlook</a>. <em>NIGP: The Institute for Public Procurement.</em></div><div class="ml-auto pl-3 no-break"><em>2026</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, &amp; Patrucco, A. S. <a href="https://cdn.naspo.org/RI/AIPoweredProcurementNASCIO2024.pdf" target="_blank">AI-Powered Procurement: Harnessing AI's Potential for More Efficient State Procurement Practices</a>. <em>NASPO &amp; NASCIO.</em></div><div class="ml-auto pl-3 no-break"><em>2024</em></div></li>
-                            <li class="d-flex small mb-3"><div>Patrucco, A. S., &amp; <strong>Dimand, A.-M.</strong> <a href="https://ted.europa.eu/documents/d/ted/final_transparency-in-public-procurement_patrucco-dimand" target="_blank">Transparency and Open Data in Public Procurement: An Analysis of European Union Member States</a>. <em>Publications Office of the European Union.</em></div><div class="ml-auto pl-3 no-break"><em>2024</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, Schwoerer, K., Patrucco, A. S., &amp; Murtazashvili, I. <a href="https://www.businessofgovernment.org/sites/default/files/Chapter%208%20-%20AI%20CX%20Dimand.pdf" target="_blank">Design Principles for Responsible Use of AI Through Public Procurement</a>. <em>Transforming the Business of Government</em> (Ch. 8). IBM Center for the Business of Government.</div><div class="ml-auto pl-3 no-break"><em>2023</em></div></li>
-                            <li class="d-flex small mb-3"><div>Patrucco, A. S., &amp; <strong>Dimand, A.-M.</strong> <a href="https://www.gordian.com/uploads/2021/11/2021-NIGP-Research-Report-JOC-Project-Delivery-Method.pdf" target="_blank">Job Order Contracting (JOC) as an Alternative Project Delivery Method: Challenges and Opportunities</a>. <em>Prepared for Gordian and NIGP.</em></div><div class="ml-auto pl-3 no-break"><em>2021</em></div></li>
-                            <li class="d-flex small mb-0"><div>Trammell, E., &amp; <strong>Dimand, A.-M.</strong> <a href="https://www.nigp.org/resource/research-papers/2019%20Local%20Government%20Entity%20Sustainable%20Procurement%20Study.pdf?dl=true" target="_blank">2019 Local Government Agency Sustainable Procurement Study</a>. <em>NIGP: The Institute for Public Procurement.</em></div><div class="ml-auto pl-3 no-break"><em>2019</em></div></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <div class="col"><div class="card border-0 shadow-sm bg-white"><div class="card-body p-4">
+                <h5 class="mb-4"><i class="fas fa-file-lines text-muted mr-2"></i>Research Reports</h5>
+                <ul class="list-unstyled mb-0">
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://s3.us-east-1.amazonaws.com/nigp-prod-media/assets/resources/research-papers/2026-State-of-the-Public-Procurement-Profession.pdf" target="_blank" class="font-weight-bold pr-2">The State of the Public Procurement Profession: Trends, Insights, and Outlook</a><span class="ml-auto pl-2 no-break text-muted small">2026</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong> (contributor)</div>
+                        <span class="badge badge-pill" style="{{ report_pill }}">NIGP</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://cdn.naspo.org/RI/AIPoweredProcurementNASCIO2024.pdf" target="_blank" class="font-weight-bold pr-2">AI-Powered Procurement: Harnessing AI's Potential for More Efficient State Procurement Practices</a><span class="ml-auto pl-2 no-break text-muted small">2024</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong>, &amp; Patrucco, A. S.</div>
+                        <span class="badge badge-pill" style="{{ report_pill }}">NASPO &amp; NASCIO</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://ted.europa.eu/documents/d/ted/final_transparency-in-public-procurement_patrucco-dimand" target="_blank" class="font-weight-bold pr-2">Transparency and Open Data in Public Procurement: An Analysis of European Union Member States</a><span class="ml-auto pl-2 no-break text-muted small">2024</span></div>
+                        <div class="small text-muted mb-1">Patrucco, A. S., &amp; <strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ report_pill }}">EU Publications Office</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.businessofgovernment.org/sites/default/files/Chapter%208%20-%20AI%20CX%20Dimand.pdf" target="_blank" class="font-weight-bold pr-2">Design Principles for Responsible Use of AI Through Public Procurement</a><span class="ml-auto pl-2 no-break text-muted small">2023</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong>, Schwoerer, K., Patrucco, A. S., &amp; Murtazashvili, I. &middot; <em>Transforming the Business of Government</em> (Ch. 8)</div>
+                        <span class="badge badge-pill" style="{{ report_pill }}">IBM Center</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.gordian.com/uploads/2021/11/2021-NIGP-Research-Report-JOC-Project-Delivery-Method.pdf" target="_blank" class="font-weight-bold pr-2">Job Order Contracting (JOC) as an Alternative Project Delivery Method: Challenges and Opportunities</a><span class="ml-auto pl-2 no-break text-muted small">2021</span></div>
+                        <div class="small text-muted mb-1">Patrucco, A. S., &amp; <strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ report_pill }}">Gordian &amp; NIGP</span>
+                    </li>
+
+                    <li class="mb-0">
+                        <div class="d-flex"><a href="https://www.nigp.org/resource/research-papers/2019%20Local%20Government%20Entity%20Sustainable%20Procurement%20Study.pdf?dl=true" target="_blank" class="font-weight-bold pr-2">2019 Local Government Agency Sustainable Procurement Study</a><span class="ml-auto pl-2 no-break text-muted small">2019</span></div>
+                        <div class="small text-muted mb-1">Trammell, E., &amp; <strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ report_pill }}">NIGP</span>
+                    </li>
+
+                </ul>
+            </div></div></div>
         </div>
 
-        <!-- Commentaries & Public Writing -->
+        <!-- Other Public-Facing Scholarship -->
         <div class="row mt-3 mb-4">
-            <div class="col">
-                <div class="card border-0 shadow-sm bg-white">
-                    <div class="card-body p-4">
-                        <h5 class="mb-3">Other Public-Facing Scholarship</h5>
-                        <ul class="list-unstyled mb-0">
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, Brunjes, B., &amp; Patrucco, A. S. <a href="https://www.greenebarrett.com/guest-column/falling-into-procurement-and-growing-into-it-" target="_blank">Falling into Procurement and Growing into It</a>. Guest column, <em>Barrett and Greene, Inc.</em></div><div class="ml-auto pl-3 no-break"><em>2026</em></div></li>
-                            <li class="d-flex small mb-3"><div>Rodriguez-Plesa, E., Alkadry, M. G., &amp; <strong>Dimand, A.-M.</strong> <a href="https://www.sagepub.com/explore-our-content/blogs/posts/sage-perspectives/2025/06/25/how-unions-help-close-gender-pay-gaps-in-public-sector-organizations/" target="_blank">How Unions Help Close Gender Pay Gaps in Public Sector Organizations</a>. <em>Sage.</em></div><div class="ml-auto pl-3 no-break"><em>2025</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, Schwoerer, K., Patrucco, A. S., &amp; Murtazashvili, I. <a href="https://www.hstoday.us/featured/applying-design-principles-for-responsible-ai-in-homeland-security/" target="_blank">Applying Design Principles for Responsible AI in Homeland Security</a>. <em>Homeland Security Today.</em></div><div class="ml-auto pl-3 no-break"><em>2024</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, &amp; Neshkova, M. I. <a href="https://blogs.lse.ac.uk/usappblog/2023/07/21/how-external-pressure-from-stakeholders-can-encourage-local-governments-to-buy-green/" target="_blank">How External Pressure from Stakeholders Can Encourage Local Governments to Buy Green</a>. <em>LSE USAPP.</em></div><div class="ml-auto pl-3 no-break"><em>2023</em></div></li>
-                            <li class="d-flex small mb-3"><div>Dotan, R., Rial, E., <strong>Dimand, A.-M.</strong>, &amp; Dignum, V. <a href="https://www.weforum.org/agenda/2023/07/how-to-manage-ai-procurement-in-public-administration/" target="_blank">How to Manage AI Procurement in Public Administration</a>. <em>World Economic Forum.</em></div><div class="ml-auto pl-3 no-break"><em>2023</em></div></li>
-                            <li class="d-flex small mb-3"><div>Patrucco, A. S., &amp; <strong>Dimand, A.-M.</strong> <a href="https://www.researchgate.net/publication/369034640_Procurement_Contract_Management_Mesh_Unpacking_the_role_of_contracting_professionals_in_strategic_procurement_management" target="_blank">Procurement and Contract Management Mesh: Unpacking the Role of Contracting Professionals in Strategic Procurement Management</a>. <em>Contract Management.</em></div><div class="ml-auto pl-3 no-break"><em>2023</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, Darnall, N., &amp; Behravesh, S. <a href="https://www.tandfonline.com/doi/full/10.1080/12294659.2023.2260041" target="_blank">Leveraging Procurement for a Sustainable Future</a>. <em>International Review of Public Administration (RRPA).</em></div><div class="ml-auto pl-3 no-break"><em>2023</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong> <a href="https://medium.com/3streams/the-overlooked-weapon-in-the-fight-against-climate-change-df76ccb8c281" target="_blank">The Overlooked Weapon in the Fight Against Climate Change</a>. <em>Medium.</em></div><div class="ml-auto pl-3 no-break"><em>2022</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, &amp; Horn, R. <a href="https://www.americancityandcounty.com/2022/03/03/5-ways-job-order-contracting-shortens-the-construction-procurement-timeline/" target="_blank">Five Ways Job Order Contracting Shortens the Construction Procurement Timeline</a>. <em>American City &amp; County.</em></div><div class="ml-auto pl-3 no-break"><em>2022</em></div></li>
-                            <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong> <a href="https://www.publicadministrationreview.com/2019/07/16/gnd9/" target="_blank">Green Public Procurement as a Tool for the Green New Deal</a>. <em>Public Administration Review.</em></div><div class="ml-auto pl-3 no-break"><em>2019</em></div></li>
-                            <li class="d-flex small mb-0"><div><strong>Dimand, A.-M.</strong> <a href="https://doi.org/10.1111/puar.13120" target="_blank">Book Review of <em>A Good Life on a Finite Earth: The Political Economy of Green Growth</em> by Daniel J. Fiorino</a>. <em>Public Administration Review.</em></div><div class="ml-auto pl-3 no-break"><em>2019</em></div></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <div class="col"><div class="card border-0 shadow-sm bg-white"><div class="card-body p-4">
+                <h5 class="mb-4"><i class="fas fa-newspaper text-muted mr-2"></i>Other Public-Facing Scholarship</h5>
+                <ul class="list-unstyled mb-0">
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.greenebarrett.com/guest-column/falling-into-procurement-and-growing-into-it-" target="_blank" class="font-weight-bold pr-2">Falling into Procurement and Growing into It</a><span class="ml-auto pl-2 no-break text-muted small">2026</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong>, Brunjes, B., &amp; Patrucco, A. S.</div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Barrett and Greene</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.sagepub.com/explore-our-content/blogs/posts/sage-perspectives/2025/06/25/how-unions-help-close-gender-pay-gaps-in-public-sector-organizations/" target="_blank" class="font-weight-bold pr-2">How Unions Help Close Gender Pay Gaps in Public Sector Organizations</a><span class="ml-auto pl-2 no-break text-muted small">2025</span></div>
+                        <div class="small text-muted mb-1">Rodriguez-Plesa, E., Alkadry, M. G., &amp; <strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Sage Perspectives</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.hstoday.us/featured/applying-design-principles-for-responsible-ai-in-homeland-security/" target="_blank" class="font-weight-bold pr-2">Applying Design Principles for Responsible AI in Homeland Security</a><span class="ml-auto pl-2 no-break text-muted small">2024</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong>, Schwoerer, K., Patrucco, A. S., &amp; Murtazashvili, I.</div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Homeland Security Today</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://blogs.lse.ac.uk/usappblog/2023/07/21/how-external-pressure-from-stakeholders-can-encourage-local-governments-to-buy-green/" target="_blank" class="font-weight-bold pr-2">How External Pressure from Stakeholders Can Encourage Local Governments to Buy Green</a><span class="ml-auto pl-2 no-break text-muted small">2023</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong>, &amp; Neshkova, M. I.</div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">LSE USAPP</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.weforum.org/agenda/2023/07/how-to-manage-ai-procurement-in-public-administration/" target="_blank" class="font-weight-bold pr-2">How to Manage AI Procurement in Public Administration</a><span class="ml-auto pl-2 no-break text-muted small">2023</span></div>
+                        <div class="small text-muted mb-1">Dotan, R., Rial, E., <strong>Dimand, A.-M.</strong>, &amp; Dignum, V.</div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">World Economic Forum</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.researchgate.net/publication/369034640_Procurement_Contract_Management_Mesh_Unpacking_the_role_of_contracting_professionals_in_strategic_procurement_management" target="_blank" class="font-weight-bold pr-2">Procurement and Contract Management Mesh: Unpacking the Role of Contracting Professionals in Strategic Procurement Management</a><span class="ml-auto pl-2 no-break text-muted small">2023</span></div>
+                        <div class="small text-muted mb-1">Patrucco, A. S., &amp; <strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Contract Management</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.tandfonline.com/doi/full/10.1080/12294659.2023.2260041" target="_blank" class="font-weight-bold pr-2">Leveraging Procurement for a Sustainable Future</a><span class="ml-auto pl-2 no-break text-muted small">2023</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong>, Darnall, N., &amp; Behravesh, S.</div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Int'l Review of Public Administration</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://medium.com/3streams/the-overlooked-weapon-in-the-fight-against-climate-change-df76ccb8c281" target="_blank" class="font-weight-bold pr-2">The Overlooked Weapon in the Fight Against Climate Change</a><span class="ml-auto pl-2 no-break text-muted small">2022</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Medium</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.americancityandcounty.com/2022/03/03/5-ways-job-order-contracting-shortens-the-construction-procurement-timeline/" target="_blank" class="font-weight-bold pr-2">Five Ways Job Order Contracting Shortens the Construction Procurement Timeline</a><span class="ml-auto pl-2 no-break text-muted small">2022</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong>, &amp; Horn, R.</div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">American City &amp; County</span>
+                    </li>
+
+                    <li class="mb-3 pb-3 border-bottom border-gray">
+                        <div class="d-flex"><a href="https://www.publicadministrationreview.com/2019/07/16/gnd9/" target="_blank" class="font-weight-bold pr-2">Green Public Procurement as a Tool for the Green New Deal</a><span class="ml-auto pl-2 no-break text-muted small">2019</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Public Administration Review</span>
+                    </li>
+
+                    <li class="mb-0">
+                        <div class="d-flex"><a href="https://doi.org/10.1111/puar.13120" target="_blank" class="font-weight-bold pr-2">Book Review of <em>A Good Life on a Finite Earth: The Political Economy of Green Growth</em> by Daniel J. Fiorino</a><span class="ml-auto pl-2 no-break text-muted small">2019</span></div>
+                        <div class="small text-muted mb-1"><strong>Dimand, A.-M.</strong></div>
+                        <span class="badge badge-pill" style="{{ essay_pill }}">Public Administration Review</span>
+                    </li>
+
+                </ul>
+            </div></div></div>
         </div>
 
     </div>
