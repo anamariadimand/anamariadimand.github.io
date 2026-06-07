@@ -9,7 +9,7 @@ positions:
 
 
 email: "adimand@fsu.edu"
-cv_link: /assets/files/Ana-Maria-Dimand-CV.pdf
+# cv_link: /assets/files/Ana-Maria-Dimand-CV.pdf  # removed from display (file still in repo)
 gscholar: 5HHECiIAAAAJ
 # github: anamariadimand
 twitter: AnaDimand  # Do not include the '@' symbol
