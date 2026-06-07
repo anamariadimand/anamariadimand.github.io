@@ -19,6 +19,18 @@ body_attr: >-
             {% endfor %}
         </div>
         {% endfor %}
+
+        <h2 class="pt-4" id="book-chapters">Book Chapters</h2>
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+                <ul class="list-unstyled mb-0">
+                    <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong> (in production). Creating Your Way: Scholarly Identity, Building Networks, and Sharing Your Work Along the PhD Journey. In B. D. McDonald III &amp; H. Minkowitz (Eds.), <em>The Ph.D. Survival Guide: How to Thrive from Start to Graduation in Public Administration.</em></div><div class="ml-auto pl-3 no-break"><em>Forthcoming</em></div></li>
+                    <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, Patrucco, A. S., Abutabenjeh, S., &amp; Brunjes, B. <a href="https://www.sciencedirect.com/science/article/abs/pii/B9780443137013003509?via%3Dihub" target="_blank">Insights into Public Procurement: Principles, Processes, and Partnership Dynamics</a>. <em>International Encyclopedia of Business Management.</em></div><div class="ml-auto pl-3 no-break"><em>2024</em></div></li>
+                    <li class="d-flex small mb-3"><div><strong>Dimand, A.-M.</strong>, &amp; Neshkova, M. I. <a href="https://doi.org/10.4337/9781803929170.00035" target="_blank">From Brown to Green: Repurposing Public Procurement</a>. In T. Nabatchi, J. O'Flynn, &amp; P. 't Hart (Eds.), <em>Positive Public Administration: New Directions for Theory and Practice.</em></div><div class="ml-auto pl-3 no-break"><em>2024</em></div></li>
+                    <li class="d-flex small mb-0"><div>Brunjes, B., Abutabenjeh, S., Anguelov, L., <strong>Dimand, A.-M.</strong>, &amp; Rodriguez-Plesa, E. Future Directions for Research in Public Procurement and Contract Management. In K. D. Dzigbede &amp; W. B. Hildreth (Eds.), <em>Research Handbook on Public Financial Management.</em> Edward Elgar.</div><div class="ml-auto pl-3 no-break"><em>2023</em></div></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <div class="col-2 d-none d-lg-block">
@@ -26,6 +38,7 @@ body_attr: >-
             {% for year in pubs_by_year %}
             <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
             {% endfor %}
+            <a class="nav-link d-block" href="#book-chapters">Chapters</a>
         </div>
     </div>
 
