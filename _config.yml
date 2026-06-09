@@ -14,11 +14,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # empty for a user site like anamariadimand.github.io
+url: "https://anamariadimand.github.io"
+
+# SEO / search visibility
+title: "Ana-Maria Dimand"
+description: >-
+  Ana-Maria Dimand is an Assistant Professor in the Reubin O'D. Askew School of Public
+  Administration and Policy at Florida State University. Her research centers on public management
+  and policy, public procurement and government contracting, sustainability, innovation, and
+  collaborative governance.
+author: Ana-Maria Dimand
+lang: en
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-email-protect
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

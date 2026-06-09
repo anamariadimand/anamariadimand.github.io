@@ -4,7 +4,52 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+
+    <!-- SEO -->
+    {% if page.url == "/" %}
+      {% assign seo_title = "Ana-Maria Dimand | Assistant Professor of Public Administration, Florida State University" %}
+    {% else %}
+      {% assign seo_title = page.title | append: " | Ana-Maria Dimand" %}
+    {% endif %}
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ site.description | strip_newlines }}">
+    <meta name="author" content="Ana-Maria Dimand">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ site.description | strip_newlines }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/assets/images/photos/ana_headshot.png' | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@AnaDimand">
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ site.description | strip_newlines }}">
+    <meta name="twitter:image" content="{{ '/assets/images/photos/ana_headshot.png' | absolute_url }}">
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ana-Maria Dimand",
+      "givenName": "Ana-Maria",
+      "familyName": "Dimand",
+      "jobTitle": "Assistant Professor",
+      "worksFor": { "@type": "CollegeOrUniversity", "name": "Florida State University" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Florida International University" },
+      "url": "https://anamariadimand.github.io/",
+      "image": "https://anamariadimand.github.io/assets/images/photos/ana_headshot.png",
+      "knowsAbout": ["Public Administration", "Public Procurement", "Government Contracting", "Sustainability", "Public Management", "Collaborative Governance"],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=5HHECiIAAAAJ",
+        "https://orcid.org/0000-0003-2728-1597",
+        "https://www.linkedin.com/in/anamariadimand/",
+        "https://twitter.com/AnaDimand",
+        "https://bsky.app/profile/anadimand.bsky.social",
+        "https://cosspp.fsu.edu/askew/faculty/ana-maria-dimand/"
+      ]
+    }
+    </script>
+    {% endif %}
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
