@@ -10,9 +10,10 @@ body_attr: >-
 
 <div class="row">
     <div class="col-12 col-lg-10">
+        <h2 class="pt-4" id="peer-reviewed-articles">Peer-Reviewed Journal Articles</h2>
         {% for year in pubs_by_year %}
         {% assign num_papers = year.items | size %}
-        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+        <h4 class="pt-3 mb-2 text-muted" id="year-{{ year.name }}">{{ year.name }}</h4>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
             {% for item in year.items %}
                 {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
@@ -46,8 +47,9 @@ body_attr: >-
 
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
+            <a class="nav-link d-block" href="#peer-reviewed-articles">Articles</a>
             {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            <a class="nav-link d-block pl-3" href="#year-{{ year.name }}">{{ year.name }}</a>
             {% endfor %}
             <a class="nav-link d-block" href="#book-chapters">Chapters</a>
             <a class="nav-link d-block" href="#editor-reviewed">Editor-Reviewed</a>
