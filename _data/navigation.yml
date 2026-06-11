@@ -4,9 +4,9 @@ pages:
   url: /
 - name: Publications
   url: /publications
-- name: Teaching
-  url: /teaching
 - name: Public-Facing Scholarship
   url: /public-scholarship
+- name: Teaching
+  url: /teaching
 - name: Resources
   url: /resources
